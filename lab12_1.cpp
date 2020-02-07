@@ -29,7 +29,7 @@ int main()
 //Write definition of stat() here 
 void stat(const double  in[],int num  ,double out[]){
 	
-	double sum =0,sumpow=0,min=0,max=0;
+	double sum =0,sumpow=0,min=in[0],max=in[0];
 	int i=0;
 	
 	
